@@ -14,30 +14,40 @@
   <body>
       <div>
           <nav class="navbar navbar-dark bg-dark navbar-expand-sm">
-            <a class="navbar-brand" href="">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="">
               <img src="/sushilogo.45e37777.png" alt="Logo" width="60px">
               Sushi Factory
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav ms-auto">
                 <li class="navbar-item">
-                  <a class="nav-link" href="">Inicio</a>
+                  <a class="nav-link" href="" aria-current="page">Inicio</a>
                 </li>
                 <li class="navbar-item">
                   <a class="nav-link" href="">Menú</a>
                 </li>
-                <li class="navbar-item">
-                  <a class="nav-link" href="">Sucursales</a>
+                <li class="navbar-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown">Sucursales</a>
+                  <ul class="dropdown-menu">
+                    <li><hr class="dropdown-divider">MX</li>
+                    <li><a class="dropdown-item" href="#">Chihuahua</a></li>
+                    <li><a class="dropdown-item" href="#">Ciudad Juárez</a></li>
+                    <li><hr class="dropdown-divider">USA</li>
+                    <li><a class="dropdown-item" href="#">El Paso</a></li>
+                  </ul>
                 </li>
-                <li class="navbar-item">
-                  <a class="nav-link" href="">Contacto</a>
+                <li class="nav-item">
+                  <a class="nav-link disabled">Desactivado</a>
                 </li>
               </ul>
-            </div></nav>
+            </div></div></nav>
           </div>
+                    
+            
         
 
       <!--
@@ -66,7 +76,7 @@
         <img class="img-fluid" src="/sushigrande.fd1c7944.jpg" alt="Sushi">
       </div>
       <div class="caption">
-        <h1 class="text-center text-light">El sushi más</h1>
+        <h1 class="text-center text-light">El sushi más sabroso de Chihuahua</h1>
       </div>                   
     </section>
 
