@@ -4,3 +4,11 @@
   left: 0;
   width: 100%;
 }
+
+.iconos {
+  width: 200px;
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+  color: #fff;
+}
